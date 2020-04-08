@@ -1,0 +1,35 @@
+#home .jumbotron{
+	background:black;
+	border-radius:20px;
+	border:1px solid black;
+	margin-top:50px;
+}
+
+#home .well:hover{
+	box-shadow:0 0 20px white;
+}
+
+#home #ho{
+	text-align:center;
+	color:lightgrey;
+}
+
+#home #h1{
+	color:tomato;
+	text-shadow: 0 0 10px red;
+}
+
+#home #h{
+	color:white;
+	text-shadow: 0 0 10px grey;
+}
+
+#home .well{
+	border-radius:12px;
+	box-shadow: 0 0 10px lightgrey;
+}
+
+h1{
+	text-align:center;
+}
+

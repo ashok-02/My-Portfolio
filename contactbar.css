@@ -1,0 +1,94 @@
+#contact .well{
+	background:black;
+	box-shadow: 0 0 10px lightgrey;
+	border-radius:12px;
+	border:none;
+}
+
+#contact .panel-heading{
+	color:white;
+	background:green;
+	text-shadow: 0 0 10px lightgrey;
+	border-top-left-radius:12px;
+  	border-top-right-radius:12px;
+  	border-bottom-left-radius: 0px;
+  	border-bottom-right-radius: 0px;
+}
+
+#contact .panel-body{
+	color:black;
+	background:white;
+	border-top-left-radius:0px;
+  	border-top-right-radius:0px;
+  	border-bottom-left-radius: 12px;
+  	border-bottom-right-radius: 12px;
+}
+
+#contact .well:hover{
+	box-shadow: 0 0 20px green;
+}
+
+#contact img{
+	float:left;
+	height:60px;
+	width:60px;
+	box-shadow:0 0 10px grey;
+	border:none;
+	border-radius:50%;
+}
+
+#contact img:hover{
+	box-shadow: 0 0 10px black;
+}
+
+#contact .row .panel-heading{
+	border-radius: 12px;
+}
+
+#contact input{ 
+	border-radius:12px; 
+	border:1px solid black; 
+	background:black;
+	color:white;
+	padding-left:20px;
+	border-width:05px;
+	height:30px;
+	width:60%;
+	outline:none;
+	font-family:times;
+ }
+
+ #contact textarea{
+ 	border-radius:12px; 
+	border:1px solid black; 
+	background:black;
+	color:white;
+	padding-left:20px;
+	border-width:05px;
+	width:60%;
+	outline:none;
+	font-family:times;
+}
+
+#contact .form{
+	background:white;
+	box-shadow: 0 0 10px grey;
+}
+
+#contact .form:hover{
+	box-shadow: 0 0 10px black;
+}
+
+#contact .form .jumbotron{
+	background:white;
+}
+
+#contact .btn{
+	margin:20px;
+}
+
+#contact li{
+	padding:10px;
+	list-style: none;
+	float:left;
+}

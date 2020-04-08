@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolia</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="navbar.css">
+	<link rel="stylesheet" href="resumebar.css">
+	<link rel="stylesheet" href="workbar.css">
+	<link rel="stylesheet" href="homebar.css">
+	<link rel="stylesheet" href="aboutbar.css">
+	<link rel="stylesheet" href="contactbar.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+<body>
+  	<header>
+      <div class="inner-width">
+      	<a href=""class="logo"><img src="a1.jpg" alt=""></a>
+        <i class="menu-toggle-btn fas fa-bars"></i>
+        <nav class="navigation-menu">
+          <a href="#home"><i class="fas fa-home home"></i> Home</a>
+          <a href="#about"><i class="fas fa-user about"></i> About</a>
+          <a href="#resume"><i class="fas fa-id-badge resume"></i>Resume</a>
+          <a href="#works"><i class="fab fa-buffer works"></i> Works</a>
+          <a href="#contact"><i class="fas fa-headset contact"></i> Contact</a>
+        </nav>
+      </div>
+    </header>
+
+
+    <script type="text/javascript">
+      $(".menu-toggle-btn").click(function(){
+        $(this).toggleClass("fa-times");
+        $(".navigation-menu").toggleClass("active");
+      });
+    </script>
+
+  	<div id="bgimg" style="background-image: url('bg1.jpg');">
+
+  		<!--Home-->
+  		<div id="home">
+			<div class=" container jumbotron text-center well" >
+				<p><h2 id="ho">I'm<br><strong><h1 id="h1">ASHOK J</h1></strong></h2></p> 
+				<p><h2 id="ho">I am a <span id="h"></span>
+				</h2></p>
+			</div>	
+		</div>
+		<!-- script for text animation-->
+			<script>
+				var n=0000;
+				setTimeout('document.getElementById("h").innerHTML = "Developer";',n);
+				for(var i=0;i<1000;i++)
+				{
+					n=n+2500;
+					setTimeout('document.getElementById("h").innerHTML = "Designer";',n );
+					n=n+2500;
+					setTimeout('document.getElementById("h").innerHTML = "Programmer";',n);
+					n=n+2500;
+					setTimeout('document.getElementById("h").innerHTML = "Typewriter";',n);
+					n=n+2500;
+					setTimeout('document.getElementById("h").innerHTML = "Developer";',n);
+				}
+			</script>
+
+		<!--About-->	
+		<div id="about">
+			<div class="container">
+				<div class="well panel">
+					<div class="panel-heading">
+						<h1><u>ABOUT</u></h1>
+					</div>
+					<div class="panel-body">
+						<img id="photo" src="photo1.jpg">
+						<h3><p>Hey.. I'm <strong>ASHOK J</strong>,currently persuing second year of Computer Science in <abbr title="Sri Venkateswara College of Engineering">SVCE</abbr>, Chennai and it's the field i'm really interested in..I have serious passion for creating and designing user 	interactive apps and websites..</p></h3>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Resume-->
+		<div id="resume">
+			<div class="container">
+				<div class="well panel">
+					<div class="panel-heading">
+						<h1>RESUME</h1>
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="panel-heading"><h1>SKILLS</h1>
+								</div>
+								<div class="panel-body">
+									<div class="well">
+									 <div class="skills">
+									 	<div class="skill">
+        									<div class="skill-name">HTML
+        									</div>
+        									<div class="skill-bar">
+         			 							<div class="skill-per" per="80"></div> 
+        									</div>
+      									</div>
+      									<div class="skill">
+       										<div class="skill-name">CSS
+       										</div>
+        									<div class="skill-bar">
+         		 								<div class="skill-per" per="80"></div>
+        									</div>
+      									</div>
+      									<div class="skill">
+        									<div class="skill-name">Javascript
+        									</div>
+        									<div class="skill-bar">
+        					  					<div class="skill-per" per="40"></div>
+									        </div>
+      									</div>
+      									<div class="skill">
+        									<div class="skill-name">Bootstrap
+        									</div>
+        									<div class="skill-bar">
+        					  					<div class="skill-per" per="50"></div>
+									        </div>
+      									</div>
+      									<div class="skill">
+        									<div class="skill-name">Php
+        									</div>
+        									<div class="skill-bar">
+        					  					<div class="skill-per" per="80"></div>
+									        </div>
+      									</div>
+      									<div class="skill">
+        									<div class="skill-name">C
+        									</div>
+        									<div class="skill-bar">
+        					  					<div class="skill-per" per="70"></div>
+									        </div>
+      									</div>
+      									<div class="skill">
+        									<div class="skill-name">C++
+        									</div>
+        									<div class="skill-bar">
+        					  					<div class="skill-per" per="70"></div>
+									        </div>
+      									</div>
+      									<div class="skill">
+        									<div class="skill-name">Java
+        									</div>
+        									<div class="skill-bar">
+        					  					<div class="skill-per" per="60"></div>
+									        </div>
+      									</div>
+    								</div>
+    							</div>
+    									<script>
+										    $('.skill-per').each(function(){
+										    var $this = $(this);
+										    var per = $this.attr('per');
+										    $this.css("width",per+'%');
+										    $({animatedValue: 0}).animate({animatedValue: per},{
+									        duration: 1000,
+									        step: function(){
+									        $this.attr('per', Math.floor(this.animatedValue) + '%');
+									        },
+	           								complete: function(){
+	            							$this.attr('per', Math.floor(this.animatedValue) + '%');
+	          								}
+	      									});
+	     									});
+ 										</script>
+    							</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="panel-heading"><h1>EDUCATION</h1>
+								</div>
+								<div class="panel-body">
+									<div class="well">
+									<div class="edu">
+										<li><h3><strong>SSLC:</strong></h3><h4><strong>Ebenezer Marcus Matriculation Higher Secondary School, Chennai.<br>Graduated in 2016 with 97%..</strong></h4>
+										</li>
+										<li><h3>HSC:</h3><H4><strong>Sethu Bhaskara Matriculation Higher Secondary School, Chennai.<br>Graduated in 2018 with 96%..</strong></H4>
+										</li>
+										<li><h3>B.E(CSE):</h3><H4><strong>Sri Venkateswara College Of Engineering.<br>Expected to graduate in 2022..</strong></H4>
+										</li>
+									</div>
+								</div>
+								</div>
+							</div>	
+						</div>
+						<div class="well">
+						<div class="interest">
+							<div class="panel">
+							<div class="panel-heading">
+							<h1>My Interests</h1>	
+							</div>
+							<div class="panel-body">
+							<li><i class="fas fa-road"></i>Travelling</li>
+							<li><i class="fas fa-palette"></i>Drawing</li>
+							<li><i class="fas fa-running"></i>Sports</li>	
+							<li><i class="fas fa-book"></i>Books</li>
+							<li><i class="fas fa-music"></i>Music</li>
+							<li><i class="fas fa-film"></i>Movies</li>
+							</div>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Works-->
+		<div id="works">
+			<div class="container">
+				<div class="well panel">
+					<div class="panel-heading">
+						<h1>PROJECTRS AND WORKS</h1>
+					</div>
+					<div id="pb" class="panel-body">
+						<div class="row">
+	   						<div class="col-lg-6">
+	   							<div class="well divorce wel">
+	   								<h3>Annulement Service Site</h3>
+	   								<h2>Its a site built for legal seperation of married couples, which is completely interactive and built from scratch..</h2>
+	   								<li>HTML</li><li>CSS</li><li>Php</li><li>Bootstrap</li>
+	   							</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="well backend wel">
+									<h3>Back End</h3>
+									<h2>Developed a full back end side for a Company's Official Website</h2>
+									<li>HTML</li><li>CSS</li><li>Php</li>
+								</div>
+							</div>
+						</div>
+						<div class="pro">
+							<div class="well port wel">
+								<h3>My Portfolia</h3>
+								<h2>It's a first version of my official Portfolia, built from scratch.. </h2>
+								<li>HTML</li><li>CSS</li><li>Javascript</li><li>Bootstrap</li>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Contact-->
+		<div id="contact">
+			<div class="container">
+				<div class="well panel">
+					<div class="panel-heading">
+						<h1>CONTACT</h1>
+					</div>
+					<div class="panel-body">
+						<div class="well form">
+							<form class="jumbotron text-center">
+								<input type="text" placeholder="Your name"><br><br>
+								<input type="number" placeholder="Your phone"><br><br>
+								<input type="text" placeholder="Your email"><br><br>
+								<textarea rows="5" cols="50"placeholder="Your message"></textarea><br>
+								<button class="btn btn-success btn-lg">Submit</button>
+							</form>
+						</div>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="panel-heading"><h1>DETAILS</h1>
+								</div>
+								<div class="panel-body">	
+									<h4><strong>Address:</strong>11/5 Kamatchi Street, Venkateswara Nagar, Ambattur, Chennai, Tamil Nadu.<br>
+									<br>
+									<strong>Phone Number:</strong>9940589977.<br>
+									<br>
+									<strong>E-mail:</strong>ashok02ash@gmail.com<br></h4>
+								</div>		
+							</div>
+							<div class="col-lg-6">
+								<div class="panel-heading"><h1>SOCIAL</h1>
+								</div>
+								<div class="panel-body">
+									<li><a href="mailto:ashok02ash@gamil.com">
+									<img src="gmail.jpg"></a></li>
+									<li><a href="https://www.linkedin.com/in/ashok-j-283857184">
+									<img src="linkedin.jpg"></a></li>
+									<li><a href="https://github.com/ashok-02">
+									<img src="github.jpg"></a></li>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

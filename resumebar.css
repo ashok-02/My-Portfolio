@@ -1,0 +1,164 @@
+
+.skills{
+  width: 100%;
+  max-width: 600px;
+  padding: 0 20px;
+}
+
+.skill-name{
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 20px 0;
+  color:black;
+  font-family:verdana;
+}
+
+.skill-bar{
+  height: 3px;
+  background:black;
+  border:1px solid rgba(0,0,0,3);
+  border-radius: 3px;
+  box-shadow:0 0 10px black;
+
+}
+
+.skill-per{
+  height: 2px;
+  background-color: white;
+  border-radius: 3px;
+  transition: 2s linear;
+  width:0;
+  position:relative;
+}
+
+.skill-per::before{
+  content: attr(per);
+  position: absolute;
+  padding: 4px 6px;
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+  top: -35px;
+  right: 0;
+  transform: translateX(50%);
+}
+
+.skill-per::after{
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  top: -16px;
+  right: 0;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 2px;
+}
+
+.edu li{
+	margin:20px 0;
+	list-style: none;
+}
+
+.edu h3{
+	color:black;
+  font-family:verdana;
+}	
+
+.edu h4{
+	color:#232;
+}
+
+.interest h1{
+	color:white;
+	text-align:center;
+}
+
+.interest li{
+	float:left;
+	margin:10px;
+	margin-left:20px;
+	padding:20px;
+	padding-bottom:0;
+	list-style: none;
+	font-family:verdana;
+  font-size:20px;
+  color:black;
+}
+
+.interest i{
+	padding:20px;
+
+}
+
+#resume .well{
+  border-radius:12px;
+  background:black;
+  border:1px solid black;
+  box-shadow: 0 0 10px lightgrey;
+  margin:20px;
+}
+
+#resume .panel-heading{
+  color:white;
+  background:tomato;
+  text-shadow: 0 0 10px lightgrey;
+  border-top-left-radius:12px;
+  border-top-right-radius:12px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#resume .panel-body{
+  background:white;
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+#resume .panel-body .well{
+  background:white;
+  color:grey;
+  border:1px solid white;
+}
+
+#resume .panel-body .well:hover{
+  box-shadow: 0 0 10px lightgrey;
+}
+
+#resume .row .panel-heading{
+  color:white;
+  text-shadow: 0 0 10px tomato;
+  border-radius:12px;
+}
+
+#resume .row .panel-body{
+  border-radius:12px;
+}
+
+#resume .interest .panel:hover{
+  box-shadow:none;
+}
+
+h1{
+  text-align:center;
+}
+
+#resume .panel:hover{
+  box-shadow: 0 0 20px tomato;
+}
+
+#resume .interest .panel-heading{
+  border-radius: 12px;
+}
+
+body{
+  margin:0;
+  background:#222;
+  font-family:'Work Sans' , sans-serif;
+  font-weight:800;
+  background:black;
+}

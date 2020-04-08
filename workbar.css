@@ -1,0 +1,108 @@
+#works .divorce li{
+  display:inline;
+  list-style: none;
+  margin:30px;
+  border:1px solid orange;
+  border-radius: 12px;
+  padding:10px;
+  background:orange;
+  color:white;
+  position:relative ;
+}
+
+#works .port li{
+  display:inline;
+  list-style: none;
+  margin:20px;
+  border:1px solid orange;
+  border-radius: 12px;
+  padding:10px;
+  background:orange;
+  color:white;
+}
+
+#works .backend li{
+  display:inline;
+  list-style: none;
+  margin:50px;
+  border:1px solid orange;
+  border-radius: 12px;
+  padding:10px;
+  background:orange;
+  color:white;
+}
+
+#works p{
+  font-family: sans-serif;
+  text-decoration: none;
+  text-align:left;
+  text-align:none;
+}
+
+#works h2{
+  text-align:center;
+  color:black;
+  margin:10px;
+  margin-bottom:30px;
+  font-family:arial;
+}
+
+#works h3{
+  text-align:center;
+  margin-bottom:30px;
+  margin-top:0;
+}
+
+.well{
+  border-radius:12px;
+  background:white;
+}
+
+.pro .well{
+  border-radius:12px;
+  width:50%;
+  height:50%;
+  background:white;
+  margin-left:25%;
+}
+
+#works .well:hover{
+  box-shadow:0 0 20px orange;
+}
+
+#works .panel-heading{
+    color:white;
+  background:orange;
+  text-shadow: 0 0 10px lightgrey;
+  border-top-left-radius:12px;
+  border-top-right-radius:12px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#works .well{
+  background:black;
+  border-radius:12px;
+  border:1px solid black;
+  box-shadow: 0 0 10px lightgrey;
+}
+
+#works .panel-body{
+  background:white;
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+#works .wel{
+  background:white;
+  border:none;
+  color:black;
+  font-family:verdana;
+  box-shadow:0 0 40px lightgrey;
+}
+
+#works .wel:hover{
+  box-shadow: 0 0 40px black;
+}

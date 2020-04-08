@@ -1,0 +1,63 @@
+
+#about #photo{
+		height:30%;
+		width:30%;
+		border-radius:50%;
+		margin:0 35%;
+	}
+
+#about .panel-heading{
+	color:white;
+	background:steelblue;
+	text-shadow: 0 0 10px lightgrey;
+	border-top-left-radius:12px;
+	border-top-right-radius:12px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	
+}
+h1{
+	text-align:center;
+}
+
+#about .panel-body{
+	background:white;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+}
+
+#about .well{
+	background:black;
+	border:1px solid black;
+	border-radius:12px;
+	box-shadow: 0 0 10px lightgrey;
+}
+
+#about .panel:hover{
+	box-shadow:0 0 20px steelblue;
+}
+
+#about p{
+	font-family:courier;
+}
+
+#about strong{
+	font-family: verdana;
+	color:black;
+	text-shadow:0 0 10px white;
+}
+
+#about abbr{
+	text-decoration: none;
+}
+
+
+p{
+	padding-left:70px;
+	padding-right:70px;
+} 
+h3{
+	font-weight:bold;
+}
